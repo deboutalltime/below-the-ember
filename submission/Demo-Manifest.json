@@ -1,0 +1,51 @@
+{
+  "file": "Below-the-Ember-Demo.mp4",
+  "durationSeconds": 149.786,
+  "capturedFrames": 717,
+  "outputSize": [
+    1280,
+    800
+  ],
+  "encodingFps": 25,
+  "captureFps": "approximately 5",
+  "chapters": [
+    {
+      "name": "01-menu",
+      "durationSeconds": 10.172
+    },
+    {
+      "name": "02-story",
+      "durationSeconds": 15.124
+    },
+    {
+      "name": "03-gameplay",
+      "durationSeconds": 25.038
+    },
+    {
+      "name": "04-csp",
+      "durationSeconds": 25.174
+    },
+    {
+      "name": "05-astar",
+      "durationSeconds": 25.028
+    },
+    {
+      "name": "05b-astar-result",
+      "durationSeconds": 4.083
+    },
+    {
+      "name": "06-agents",
+      "durationSeconds": 20.004
+    },
+    {
+      "name": "08-learning",
+      "durationSeconds": 15.163
+    },
+    {
+      "name": "09-ending",
+      "durationSeconds": 10
+    }
+  ],
+  "audio": "Original game synthesis mixed separately; not a browser audio capture.",
+  "footage": "Actual browser interactions. The short gameplay run ends in defeat. Five-floor victory is verified separately by the simulation driver."
+}

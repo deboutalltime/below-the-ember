@@ -1,0 +1,228 @@
+✔ four weapons have real different attacks and specials consume heat (155.2902ms)
+✔ ricochet reflects, piercing hits multiple foes, burning triggers a defeat cascade (320.8935ms)
+✔ oil, traps, pot loot and secret rewards are simulation objects (56.7727ms)
+✔ defense waits for its timer; collapsing chambers require leaving after the fight (128.5812ms)
+✔ covenants, smith, trader, contracts and checkpoint stats have real consequences (185.8223ms)
+✔ enemies cannot see through a wall but can investigate a noisy shot (58.7486ms)
+✔ fifty expanded floors preserve reachability, roles, deterministic waves and safe spawns (3749.7421ms)
+✔ GOAP performs healing and shaman assistance in the actual simulation (64.6044ms)
+✔ oaths block flasks, heat buys blessings, revival works once and contracts pay once (63.7653ms)
+✔ negative visual evidence respects the ember-adjusted vision distance (37.499ms)
+✔ real projectiles hit and kill, then exactly one room-clear reward pauses simulation (109.3702ms)
+✔ solid wall blocks projectiles and movement (49.7966ms)
+✔ enemy shots damage once and invulnerability blocks repeated hits (38.6892ms)
+✔ boss telegraphs before firing and phase two increases ring density (55.0788ms)
+✔ same seed and floor reproduce rooms, corridors and contents (16.7819ms)
+✔ 100 seeded floors are connected and have separated rooms (182.7854ms)
+✔ A* finds shortest path around walls, cardinal valid steps and unreachable handling (1.1428ms)
+✔ walls block perception and FSM alerts, chases, attacks, searches, returns to patrol (0.7119ms)
+✔ potions, capped upgrades, damage invulnerability and death (157.4577ms)
+✔ campaign has exactly five floors, required objectives, shelters and terminal victory (224.3746ms)
+✔ save restores statistics and deterministic floor checkpoint (216.7705ms)
+✔ one accepted weapon attack emits one cue regardless of pellet count or a same-frame hit (250.8905ms)
+✔ dash start and landing match real movement and do not repeat during cooldown or redraw (182.2175ms)
+✔ lance charge starts once, stops on weapon switch, and marks readiness before release (64.8486ms)
+✔ dash keeps its accepted direction and floor transitions clear transient movement (85.8811ms)
+✔ damage immunity and empty healing do not create false sound events (59.9966ms)
+✔ trap warning and strike are distinct events; a broken pot cannot repeat its sound (66.637ms)
+✔ every sound renders finite, non-silent PCM with bounded peaks and clean clip boundaries (408.2532ms)
+✔ generation rejects fractional, empty-equivalent, out-of-range and non-finite parameters (2.7412ms)
+✔ generation accepts the parameter boundaries with connected separated rooms (36.6628ms)
+✔ CSP success and fallback have honest reproducible solver and trace metadata (43.8333ms)
+✔ weighted A* and Dijkstra find a cheaper detour than BFS (3.8435ms)
+✔ Utility AI selects context-appropriate tactical intentions (0.5841ms)
+✔ GOAP finds a valid least-cost sequence and rejects impossible goals (2.0242ms)
+✔ boss behavior tree resolves warning before selecting another attack (0.653ms)
+✔ Bayesian sight, sound, prediction and exclusion conserve probability (2.6556ms)
+✔ minimax wins, blocks and alpha–beta preserves the answer with fewer nodes (22.102ms)
+✔ Q-learning actually learns a safe policy, reproducibly from an empty table (19.94ms)
+✔ genetic encounters are deterministic, constrained and preserve elite fitness (32.1254ms)
+✔ a HUD press cannot shoot, even when dragged back into the world (4.435ms)
+✔ actor gait follows actual distance, blocked movement stays idle, and pause freezes every pose value (1.9895ms)
+✔ adaptive music respects screen state, encounters, pause and hidden tabs (1.1101ms)
+✔ the score is deterministic, has audible instruments and differs across arrangements, floors and boss phases (88.4486ms)
+✔ the music clock schedules each note once and skips a stalled frame without a burst of old beats (0.5978ms)
+✔ prologue has five complete bilingual chapters with time to read (1.7241ms)
+✔ prologue navigation has bounds and resets the reading clock only on a scene change (0.5359ms)
+✔ paused and hidden prologue freezes; frame stalls do not consume the story (2.1907ms)
+✔ automatic playback reaches the final scene and waits for an explicit departure (1.5235ms)
+✔ manual presentation never auto advances; the final next completes once (0.8106ms)
+✔ educational CSP trace contains valid partial assignments and real rollback events (24.9715ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5743.8385
+vite v6.4.4 building for production...
+transforming...
+✓ 45 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.40 kB │ gzip:   0.27 kB
+dist/assets/index-vsdakEiy.css     36.25 kB │ gzip:   9.18 kB
+dist/assets/index-DG1qtugg.js   1,668.61 kB │ gzip: 410.07 kB
+✓ built in 8.30s
+Floor 1: HP 100, enemies 13, damage 15.0
+Floor 2: HP 120, enemies 14, damage 17.3
+t=100 floor=2 HP=120 foes=10 room=-1 pos=20.5,36.4 target={"x":20,"y":14}
+Floor 3: HP 120, enemies 17, damage 19.5
+t=200 floor=3 HP=110 foes=9 room=4 pos=25.5,17.5 target={"x":25,"y":17}
+Floor 4: HP 120, enemies 19, damage 26.1
+t=299 floor=4 HP=160 foes=0 room=-1 pos=6.5,22.4 target={"x":28,"y":42}
+Floor 5: HP 160, enemies 25, damage 28.8
+{
+  "seed": "qairu-final-2026",
+  "status": "victory",
+  "floor": 5,
+  "hp": 180,
+  "kills": 98,
+  "elapsed": 391.8000000000528,
+  "ticks": 9825,
+  "floors": [
+    {
+      "floor": 1,
+      "hp": 119,
+      "kills": 15,
+      "objectives": [
+        {
+          "type": "combat",
+          "complete": true,
+          "time": 1.1600000000000004
+        },
+        {
+          "type": "defense",
+          "complete": true,
+          "time": 15.039999999999855
+        },
+        {
+          "type": "collapse",
+          "complete": true,
+          "time": 3.9600000000000026
+        },
+        {
+          "type": "trial",
+          "complete": true,
+          "time": 6.280000000000005
+        }
+      ],
+      "elapsed": 80.12000000000133
+    },
+    {
+      "floor": 2,
+      "hp": 120,
+      "kills": 16,
+      "objectives": [
+        {
+          "type": "combat",
+          "complete": true,
+          "time": 0.04
+        },
+        {
+          "type": "defense",
+          "complete": true,
+          "time": 15.039999999999855
+        },
+        {
+          "type": "collapse",
+          "complete": true,
+          "time": 0.08
+        },
+        {
+          "type": "trial",
+          "complete": true,
+          "time": 2.8000000000000016
+        }
+      ],
+      "elapsed": 165.00000000000145
+    },
+    {
+      "floor": 3,
+      "hp": 120,
+      "kills": 19,
+      "objectives": [
+        {
+          "type": "combat",
+          "complete": true,
+          "time": 0.04
+        },
+        {
+          "type": "defense",
+          "complete": true,
+          "time": 15.039999999999855
+        },
+        {
+          "type": "collapse",
+          "complete": true,
+          "time": 2.280000000000001
+        },
+        {
+          "type": "trial",
+          "complete": true,
+          "time": 0.39999999999999997
+        }
+      ],
+      "elapsed": 235.75999999998737
+    },
+    {
+      "floor": 4,
+      "hp": 160,
+      "kills": 21,
+      "objectives": [
+        {
+          "type": "combat",
+          "complete": true,
+          "time": 0.04
+        },
+        {
+          "type": "defense",
+          "complete": true,
+          "time": 15.039999999999855
+        },
+        {
+          "type": "collapse",
+          "complete": true,
+          "time": 0.16
+        },
+        {
+          "type": "trial",
+          "complete": true,
+          "time": 0.04
+        }
+      ],
+      "elapsed": 310.2000000000111
+    },
+    {
+      "floor": 5,
+      "hp": 180,
+      "kills": 27,
+      "objectives": [
+        {
+          "type": "combat",
+          "complete": true,
+          "time": 0.04
+        },
+        {
+          "type": "defense",
+          "complete": true,
+          "time": 15.039999999999855
+        },
+        {
+          "type": "collapse",
+          "complete": true,
+          "time": 0.16
+        },
+        {
+          "type": "trial",
+          "complete": true,
+          "time": 0.04
+        }
+      ],
+      "elapsed": 391.8000000000528
+    }
+  ],
+  "reason": "",
+  "verification": "Automated simulation with normal actions. Omniscient test driver; no enemy deletion, objective overrides, teleportation or boosted statistics. Not a human playthrough."
+}

@@ -1,0 +1,45 @@
+.prologue-overlay{display:block!important;background:#070c14;overflow:auto;padding:0!important;z-index:80}
+.prologue{position:relative;width:100%;height:100%;min-height:620px;overflow:hidden;color:#ece3d4;background:#070c14;pointer-events:auto}
+.prologue-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% center;image-rendering:pixelated;pointer-events:none}
+.story-vignette{position:absolute;inset:0;background:linear-gradient(180deg,#0509139c,transparent 24%,transparent 65%,#05091380);pointer-events:none}
+.prologue-header{position:absolute;top:5%;left:6%;right:6%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.story-brand{display:flex;align-items:center;gap:14px;font:12px/1.5 Georgia,serif;letter-spacing:2px;color:#e7c69a}
+.story-sigil{font-size:36px;color:#f0b66e;text-shadow:0 0 24px #ff8a4040}
+.story-brand small{display:block;font:9px/1.7 Consolas,monospace;letter-spacing:2px;color:#a3a9ad;margin-top:4px}
+.story-header-actions{display:flex;align-items:center;gap:14px}
+.prologue button{margin:0;min-width:0;min-height:44px;padding:10px 15px;border:1px solid #b99a663d;border-radius:0;background:#0b121b66;color:#b9b9b3;box-shadow:none;font:11px/1.3 Consolas,monospace;letter-spacing:.5px;text-transform:none;transition:background .18s,color .18s,border-color .18s}
+.prologue button:hover,.prologue button:focus-visible{background:#b786492b;border-color:#d3a061;color:#f4d3a2;outline:1px solid #bd8e4a;outline-offset:3px}
+.prologue button:disabled{opacity:.3;cursor:default}
+.prologue button[aria-pressed=true]{color:#efc889;border-color:#bc8d466b}
+.story-languages{display:flex}.story-languages button{padding:9px 11px}.story-languages button+button{border-left:0}
+.story-header-actions .story-skip{background:transparent;border-color:transparent;color:#cbb99e}
+.story-copy{position:absolute;left:7%;bottom:29%;width:43%;max-width:590px;text-align:left}
+.story-chapter{font:10px/1.6 Consolas,monospace;letter-spacing:2.3px;color:#dcae71;margin-bottom:20px}
+.story-copy h1{font:400 clamp(30px,3.6vw,52px)/1.12 Georgia,'Times New Roman',serif;letter-spacing:-.8px;margin:0 0 22px;color:#f2e1c7;text-shadow:0 2px 20px #030912}
+.story-copy p{font:16px/1.8 Georgia,'Times New Roman',serif;color:#bfc1bf;margin:0;max-width:46ch;text-shadow:0 1px 8px #030912}
+.story-copy-rule{display:block;width:58px;height:1px;background:#bd8c4e;margin-top:25px}
+.story-motion .story-reveal{animation:story-reveal .7s ease-out both}
+.reduced-motion .prologue.story-motion .story-reveal{animation:story-reveal .7s ease-out both!important}
+.prologue.story-paused .story-reveal{animation-play-state:paused!important}
+.prologue-footer{position:absolute;bottom:4%;left:7%;right:7%;display:grid;gap:10px;text-align:left}
+.story-scene-info{display:flex;align-items:center;justify-content:space-between;font:9px/1.4 Consolas,monospace;letter-spacing:1.8px;color:#7e8c98}
+.story-counter{color:#c4b18f;letter-spacing:1px}
+.story-timeline{display:flex;gap:10px}
+.story-timeline button{display:flex;align-items:center;gap:10px;flex:1;padding:4px 0;background:transparent;border:0;min-height:30px;font-size:9px;color:#6d7d8b}
+.story-timeline button:hover{background:transparent;border:0}.story-timeline button[aria-current]{color:#efc889}
+.story-timeline i{display:block;position:relative;flex:1;height:2px;background:#5360706e;overflow:hidden}
+.story-timeline b{position:absolute;inset:0;background:#ddaa66;transform:scaleX(0);transform-origin:left}
+.story-timeline button[aria-current] i{background:#b4955d7a}
+.story-controls{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.story-modes{display:flex;gap:7px}.story-modes button{background:transparent;padding:8px 11px;font-size:10px}
+.prologue .story-next{min-width:142px;color:#f1d1a2;border-color:#ba8a49;background:#37281880}
+.prologue .story-next.story-finale{background:#b37a38;color:#100e0c;border-color:#dca25b;font-weight:bold;padding:12px 18px}
+.story-preferences{display:flex;align-items:center;justify-content:space-between;gap:18px;color:#788999;font:9px/1.6 Consolas,monospace;letter-spacing:.5px;margin-top:8px}
+.story-preferences label{display:flex;align-items:center;gap:9px;cursor:pointer;font:11px/1.5 Consolas,monospace;letter-spacing:0;color:#a4aaa9;min-height:28px}
+.story-preferences input{width:14px;height:14px;margin:0;accent-color:#d8a25d}
+.menu-topline button.menu-story{border:0;border-bottom:1px solid #a27e414d;background:transparent;padding:7px 0;color:#b8a382;font:8px Consolas,monospace;letter-spacing:1.4px;min-height:32px}
+.menu-topline button.menu-story:hover{color:#f3cc90;border-color:#bd8d4c}
+@keyframes story-reveal{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(min-aspect-ratio:2/1){.story-copy{bottom:31%;max-width:600px}.prologue-art{object-fit:contain;object-position:75% center}}
+@media(max-width:900px){.story-modes button{font-size:9px;padding:8px}.story-header-actions{gap:7px}.story-preferences>span{display:none}.story-copy{width:47%;bottom:31%}.story-copy h1{font-size:36px}.story-copy p{font-size:15px}.story-chapter{font-size:9px;margin-bottom:14px}.prologue-footer{left:6%;right:6%}.story-controls{gap:10px}}
+@media(max-width:650px){.prologue{min-height:740px}.prologue-header{top:3%;left:6%;right:6%;align-items:flex-start}.story-brand{font-size:10px;letter-spacing:1px;gap:8px}.story-sigil{font-size:28px}.story-brand small{font-size:7px;letter-spacing:.8px;max-width:150px}.story-header-actions{flex-wrap:wrap;justify-content:flex-end;max-width:180px;gap:5px}.prologue button{font-size:10px;padding:8px 10px}.story-header-actions .story-sound{font-size:9px}.story-languages button{padding:7px 9px}.story-copy{left:7%;width:84%;bottom:35%;max-width:460px}.story-copy h1{max-width:340px;font-size:34px}.story-copy p{font-size:15px;max-width:42ch;background:#060c1559}.story-chapter{letter-spacing:1.3px}.story-copy-rule{margin-top:18px}.story-controls{flex-wrap:wrap}.story-modes{order:3;flex-basis:100%;justify-content:center;margin-top:5px}.story-modes button{flex:1;font-size:9px}.prologue-footer{bottom:3%;gap:9px}.story-preferences{margin-top:1px}.story-scene-info{font-size:8px;letter-spacing:1px}.story-timeline{gap:8px}.story-timeline button{gap:5px}.prologue-art{object-position:64% center}}

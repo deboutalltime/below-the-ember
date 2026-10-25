@@ -1,0 +1,81 @@
+1
+00:00:00,000 --> 00:00:10,172
+BELOW THE EMBER
+An AI educational game by Bekzat Zhailkhan
+
+2
+00:00:10,172 --> 00:00:25,296
+The last keeper carries an ember into forgotten ruins.
+The English prologue uses animated scenes.
+
+3
+00:00:25,296 --> 00:00:33,642
+A normal seeded run: movement, dash and four weapons.
+
+4
+00:00:33,642 --> 00:00:41,988
+Attacks use real projectiles, health and cooldowns.
+
+5
+00:00:41,988 --> 00:00:50,334
+This short run includes a real defeat.
+It is not a full campaign victory.
+
+6
+00:00:50,334 --> 00:00:58,725
+Week 3: CSP assigns rooms and checks their separation.
+
+7
+00:00:58,725 --> 00:01:07,117
+Invalid room counts produce a clear message.
+The previous map stays unchanged.
+
+8
+00:01:07,117 --> 00:01:15,508
+Search limits can trigger a fallback layout.
+The laboratory labels the fallback and truncated trace.
+
+9
+00:01:15,508 --> 00:01:28,022
+Week 2: A* searches around walls.
+Users can change obstacles, the start and the goal.
+
+10
+00:01:28,022 --> 00:01:40,536
+The search chooses the smallest f = g + h.
+Open and closed nodes show its progress.
+
+11
+00:01:40,536 --> 00:01:44,619
+A* result: 30 moves and 165 closed nodes.
+
+12
+00:01:44,619 --> 00:01:51,287
+Week 1: an enemy senses the player and changes state.
+
+13
+00:01:51,287 --> 00:01:57,955
+Detection can lead to alert, chase and attack.
+
+14
+00:01:57,955 --> 00:02:04,623
+After losing sight, the agent searches, then patrols.
+
+15
+00:02:04,623 --> 00:02:12,204
+Extra topic: Q-learning starts with an empty table.
+
+16
+00:02:12,204 --> 00:02:19,786
+1000 episodes: the learned policy reaches the goal.
+98% success refers to recent training on this fixed map.
+
+17
+00:02:19,786 --> 00:02:24,786
+Three core weeks: Agents, A* and CSP.
+TypeScript, Phaser 3 and Vite.
+
+18
+00:02:24,786 --> 00:02:29,786
+50 tests pass. A separate automated driver completed five floors.
+The driver result is not a manual playthrough.

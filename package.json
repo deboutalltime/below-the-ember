@@ -1,0 +1,26 @@
+{
+  "name": "below-the-ember",
+  "version": "2.3.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx --test tests/*.test.ts",
+    "preview": "vite preview --host 127.0.0.1 --port 5181",
+    "metrics": "tsx scripts/metrics.ts",
+    "verify:campaign": "tsx scripts/verify-campaign.ts"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.13.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

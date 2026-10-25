@@ -1,0 +1,40 @@
+✓ Lockfile passes supply-chain policies (verified 3d ago)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +22
+++++++++++++++++++++++
+Progress: resolved 22, reused 0, downloaded 0, added 0
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\zhaza\AppData\Local\pnpm\store\v11
+  Virtual store is at:             node_modules/.pnpm
+
+   ╭────────────────────────────────────────────────────────────────────────╮
+   │                                                                        │
+   │                  Update available! 11.25.0 → 12.15.0.                  │
+   │                  Changelog: https://pnpm.io/v/12.15.0                  │
+   │   To update, run: Invoke-WebRequest https://get.pnpm.io/install.ps1    │
+   │                 -UseBasicParsing | Invoke-Expression                   │
+   │                                                                        │
+   ╰────────────────────────────────────────────────────────────────────────╯
+
+Progress: resolved 22, reused 0, downloaded 12, added 7
+Progress: resolved 22, reused 0, downloaded 18, added 18
+Progress: resolved 22, reused 0, downloaded 21, added 21
+Progress: resolved 22, reused 0, downloaded 22, added 21
+Progress: resolved 22, reused 0, downloaded 22, added 22
+Progress: resolved 22, reused 0, downloaded 22, added 22, done
+.../esbuild@0.28.2/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.12/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.28.2/node_modules/esbuild postinstall: Done
+.../esbuild@0.25.12/node_modules/esbuild postinstall: Done
+
+dependencies:
++ phaser 3.90.0
+
+devDependencies:
++ @types/node 22.20.5
++ tsx 4.23.15
++ typescript 5.9.3
++ vite 6.4.4
+
+Done in 18s using pnpm v11.25.0

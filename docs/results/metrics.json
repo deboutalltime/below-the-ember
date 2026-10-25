@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-25",
+  "version": "2.3.2",
+  "primaryWeeks": {
+    "1": "Intelligent Agents",
+    "2": "A* Search",
+    "3": "Constraint Satisfaction Problems"
+  },
+  "csp": {
+    "normal": {
+      "rooms": 8,
+      "connected": true,
+      "trace": 11,
+      "solverSucceeded": true,
+      "fallbackUsed": false,
+      "traceTruncated": false,
+      "candidateAttempts": 11,
+      "backtracks": 0,
+      "searchBudget": 6000,
+      "traceLimit": 1500
+    },
+    "dense": {
+      "rooms": 12,
+      "connected": true,
+      "trace": 1500,
+      "solverSucceeded": false,
+      "fallbackUsed": true,
+      "traceTruncated": true,
+      "candidateAttempts": 6000,
+      "backtracks": 107,
+      "searchBudget": 6000,
+      "traceLimit": 1500
+    }
+  },
+  "invalidRoomCounts": [
+    {
+      "input": "6.5",
+      "rejected": true,
+      "message": "Rooms must be a whole number from 4 to 12."
+    },
+    {
+      "input": "0",
+      "rejected": true,
+      "message": "Rooms must be a whole number from 4 to 12."
+    },
+    {
+      "input": "100",
+      "rejected": true,
+      "message": "Rooms must be a whole number from 4 to 12."
+    },
+    {
+      "input": "NaN",
+      "rejected": true,
+      "message": "Rooms must be a whole number from 4 to 12."
+    },
+    {
+      "input": "Infinity",
+      "rejected": true,
+      "message": "Rooms must be a whole number from 4 to 12."
+    }
+  ],
+  "agentTransitions": [
+    "ALERT",
+    "CHASE",
+    "ATTACK",
+    "SEARCH",
+    "PATROL"
+  ],
+  "astar": {
+    "moves": 30,
+    "closed": 165,
+    "traceSteps": 164
+  },
+  "searchComparison": {
+    "BFS": {
+      "moves": 11,
+      "cost": 65,
+      "visited": 93
+    },
+    "Dijkstra": {
+      "moves": 13,
+      "cost": 13,
+      "visited": 105
+    },
+    "A*": {
+      "moves": 13,
+      "cost": 13,
+      "visited": 28
+    }
+  },
+  "minimax": {
+    "pruned": {
+      "move": 1,
+      "value": 0,
+      "nodes": 34202,
+      "cutoffs": 13124
+    },
+    "full": {
+      "move": 1,
+      "value": 0,
+      "nodes": 549945
+    }
+  },
+  "learning": {
+    "episodes": 1000,
+    "before": "Policy loops — more training needed",
+    "after": "Goal reached",
+    "recentTrainingSuccess": 0.98,
+    "scope": "Fixed educational arena. Training result only; campaign enemies do not use Q-learning."
+  }
+}
