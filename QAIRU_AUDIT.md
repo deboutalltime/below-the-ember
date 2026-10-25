@@ -6,6 +6,6 @@ The project implements three different course weeks in executable code: agents, 
 
 The technical report, AI declaration, individual contribution statement, seven-slide presentation, approximately two-and-a-half-minute demo, references and defense guide form the English submission package. See SUBMISSION_CHECKLIST.md for the current publication and student-review status.
 
-GitHub readiness is distinct from publication. A repository URL must be verified before claiming that remote submission is complete. The student's clarification removes topic approval from the remaining tasks. Signatures and the student's personal understanding cannot be supplied by an assistant.
+The project is published at https://github.com/deboutalltime/below-the-ember. Public visibility and anonymous cloning were verified on 25 October 2026. The instructor can read the repository without an invitation. The student's clarification removes topic approval from the remaining tasks. Signatures and the student's personal understanding cannot be supplied by an assistant.
 
 The automated five-floor driver is not a human playthrough. Broad cross-browser testing, mobile/gamepad support and long-term balance remain outside the verified scope. Historical audit notes are preserved privately under docs/history.

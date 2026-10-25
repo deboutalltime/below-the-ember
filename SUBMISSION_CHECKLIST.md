@@ -12,7 +12,7 @@ Student: Bekzat Zhailkhan. Individual project. All submission materials are in E
 | Demo video of 2-3 minutes | submission/Below-the-Ember-Demo.mp4, about 2 minutes 30 seconds, with English captions. |
 | AI Usage Declaration | English PDF and Markdown. Prepared for student review; signature left to the student if required. |
 | Team Contribution Statement | English individual contribution statement for Bekzat Zhailkhan, with AI assistance disclosed. |
-| GitHub repository | Public publication requested under deboutalltime. Local Git repository and source package prepared. Authentication, remote push and anonymous access verification are pending. |
+| GitHub repository | Published at https://github.com/deboutalltime/below-the-ember. Public visibility, anonymous API access and anonymous cloning verified on 25 October 2026. The instructor needs no invitation to read it. |
 | Topic approval | Not an outstanding task, following the student's clarification that approval is not needed. |
 | Personal understanding and defense | Defense guide and rehearsal questions prepared. The student must rehearse and answer personally. |
 

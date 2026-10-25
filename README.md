@@ -2,6 +2,8 @@
 
 An AI educational dungeon crawler by **Bekzat Zhailkhan**, the sole student participant in this AI Fundamentals final project. Version 2.3.2 uses TypeScript, Phaser 3 and Vite. It runs locally in a browser without a backend, AI API key or paid service.
 
+Public repository: [deboutalltime/below-the-ember](https://github.com/deboutalltime/below-the-ember). The repository and source download were verified without authentication on 25 October 2026.
+
 The player carries the last ember through five seeded floors. The game combines four weapons, 18 upgrades, heat, room objectives, a shelter and a two-phase final boss. The interactive AI Laboratory explains the same core algorithms used by the campaign.
 
 ![A normal game run](docs/images/gameplay.png)

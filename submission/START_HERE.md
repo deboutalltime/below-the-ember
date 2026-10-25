@@ -18,4 +18,4 @@ The project root README explains how to run the game. The production application
 
 Review the declarations before submission and sign them personally only if required. The automated campaign victory is a simulation experiment, not a human browser playthrough. The short video shows a separate ordinary run ending in defeat.
 
-The student requested a public GitHub repository under deboutalltime. The local repository and Publish-GitHub.ps1 are prepared. Authentication and remote publication remain pending; confirm the actual repository URL and access without signing in after publication.
+Public GitHub repository: https://github.com/deboutalltime/below-the-ember. Publication, public visibility and anonymous source cloning were verified on 25 October 2026. The instructor can read and download it without an invitation. See ../docs/results/github-publication.json for the verification record.
